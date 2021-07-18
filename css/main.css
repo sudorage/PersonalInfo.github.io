@@ -4,11 +4,15 @@ body, html {
 }
 
 body {
-  background-color: black;
+  background: black;
 }
 
 .switch {
   position: relative;
+  top: 0;
+  left: 97%;
+  right: 0;
+  bottom: 0;
   display: block;
   width: 45px;
   height: 22.5px;
