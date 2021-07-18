@@ -18,9 +18,9 @@ body {
 .slider {
   position: absolute;
   cursor: pointer;
-  top: 100;
+  top: 0;
   left: 0;
-  right: 50;
+  right: 0;
   bottom: 0;
   background: white;
   -webkit-transition: .5s;
