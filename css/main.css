@@ -34,7 +34,7 @@ body {
   position: absolute;
   content: "";
   bottom: 14px;
-  top: 8px;
+  top: 4px;
   background-color: lightgray;
   -webkit-transition: .5s;
   transition: .5s;
@@ -49,9 +49,9 @@ input:checked + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(47px) rotateZ(45deg);
-          transform: translateX(47px) rotateZ(45deg);
-  background: yellow;
+  -webkit-transform: translateX(24px) rotateZ(60deg);
+          transform: translateX(24px) rotateZ(60deg);
+  background: red;
 }
 
 .slider.round {
@@ -59,9 +59,9 @@ input:checked + .slider:before {
 }
 
 .slider.round:before {
-  width: 43%;
-  height: 43%;
-  border-top-left-radius: 50px;
+  width: 35%;
+  height: 45%;
+  border-top-left-radius: 45px;
   border-top-right-radius: 50px;
   -webkit-transform: rotateZ(-45deg);
           transform: rotateZ(-45deg);

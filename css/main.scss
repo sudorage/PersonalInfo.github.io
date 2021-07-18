@@ -28,7 +28,7 @@ box-shadow: 1px 1px 1px rgba(0,0,0, 0.1);
     position:absolute;
     content: "";
     bottom: 14px;
-    top: 8px;
+    top: 4px;
     background-color: lightgray;
     transition: .5s;
 }
@@ -40,8 +40,8 @@ input:checked + .slider {
 }
 
 input:checked + .slider:before {
-    transform: translateX(47px) rotateZ(45deg);
-    background: yellow;
+    transform: translateX(24px) rotateZ(60deg);
+    background: red;
 }
 
 .slider.round {
@@ -49,9 +49,9 @@ input:checked + .slider:before {
 }
 
 .slider.round:before {
-    width: 43%;
-    height: 43%;
-    border-top-left-radius: 50px;
+    width: 35%;
+    height: 45%;
+    border-top-left-radius: 45px;
     border-top-right-radius: 50px;
     transform: rotateZ(-45deg);
 }
