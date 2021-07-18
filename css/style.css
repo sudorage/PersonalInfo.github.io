@@ -20,7 +20,7 @@
 }
 .lds-grid div:nth-child(2) {
   top: 8px;
-  left: 32px; 
+  left: 32px;
   animation-delay: -0.4s;
 }
 .lds-grid div:nth-child(3) {
@@ -73,15 +73,15 @@
 
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #f1f1f1;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(31, 31, 31); 
+  background: rgb(31, 31, 31);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(24, 24, 24); 
+  background: rgb(24, 24, 24);
 }
 
 body {
@@ -223,7 +223,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../images/wallpaper.jpg) top center;
+  background: url(../images/cat.jpg) top center;
   background-size: cover;
   position: relative;
 }
@@ -726,7 +726,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 .contactlink{
- 
+
   font-size: 25px;
   color: #000000;
   position: relative;
