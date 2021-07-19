@@ -72,17 +72,25 @@ input:checked + .slider:before {
 }
 
 h1 {
-  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 47%;
+  right: 0;
+  bottom: 0;
   color: #ff0100;
 }
 
 p {
-  text-align: center;
+  position: absolute;
+  top: 7%;
+  left: 49%;
+  right: 0;
+  bottom: 0;
   color: White;
 }
 
 .button {
-  position: fixed;
+  position: absolute;
   background-color: #ff0000;
   border: none;
   color: Black;
@@ -92,7 +100,7 @@ p {
   display: inline-block;
   font-size: 16px;
   margin: 0;
-  position: fixed;
+  position: absolute;
   top: 18%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -100,7 +108,7 @@ p {
 }
 
 .button2 {
-  position: fixed;
+  position: absolute;
   background-color: #ff0000;
   border: none;
   color: Black;
@@ -110,7 +118,7 @@ p {
   display: inline-block;
   font-size: 16px;
   margin: 0;
-  position: fixed;
+  position: absolute;
   top: 25%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
