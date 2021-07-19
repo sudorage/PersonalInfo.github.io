@@ -65,7 +65,7 @@ input:checked + .slider:before {
         color: rgb(255, 1, 0)
 }
 
-    p {
+    h2 {
       position: absolute;
         top: 7%; left: 49%; right: 0; bottom: 0;
     color: White
@@ -82,9 +82,9 @@ input:checked + .slider:before {
           display: inline-block;
           font-size: 16px;
             margin: 0;
-            position: relative;
-            top: 18%;
-            left: 50%;
+            position: absolute;
+            top: 20%;
+            left: 50.5%;
             -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
 }
@@ -100,9 +100,9 @@ input:checked + .slider:before {
       display: inline-block;
       font-size: 16px;
         margin: 0;
-        position: relative;
-        top: 25%;
-        left: 44.2%;
+        position: absolute;
+        top: 30%;
+        left: 50.5%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
 }
