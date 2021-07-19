@@ -60,17 +60,20 @@ input:checked + .slider:before {
 
 
     h1 {
+        
       text-align: center;
         color: rgb(255, 1, 0)
 }
 
     p {
+      
         text-align: center;
     color: White
 
 }
 
     .button {
+        position: fixed;
           background-color: #ff0000;
           border: none;
           color: Black;
@@ -80,7 +83,7 @@ input:checked + .slider:before {
           display: inline-block;
           font-size: 16px;
             margin: 0;
-            position: absolute;
+            position: fixed;
             top: 18%;
             left: 50%;
             -ms-transform: translate(-50%, -50%);
@@ -89,6 +92,7 @@ input:checked + .slider:before {
 
 
     .button2 {
+        position: fixed;
       background-color: #ff0000;
       border: none;
       color: Black;
@@ -98,7 +102,7 @@ input:checked + .slider:before {
       display: inline-block;
       font-size: 16px;
         margin: 0;
-        position: absolute;
+        position: fixed;
         top: 25%;
         left: 50%;
         -ms-transform: translate(-50%, -50%);

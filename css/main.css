@@ -82,6 +82,7 @@ p {
 }
 
 .button {
+  position: fixed;
   background-color: #ff0000;
   border: none;
   color: Black;
@@ -91,7 +92,7 @@ p {
   display: inline-block;
   font-size: 16px;
   margin: 0;
-  position: absolute;
+  position: fixed;
   top: 18%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -99,6 +100,7 @@ p {
 }
 
 .button2 {
+  position: fixed;
   background-color: #ff0000;
   border: none;
   color: Black;
@@ -108,7 +110,7 @@ p {
   display: inline-block;
   font-size: 16px;
   margin: 0;
-  position: absolute;
+  position: fixed;
   top: 25%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
