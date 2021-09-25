@@ -12,27 +12,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
     background-attachment: fixed;
-  z-index: 1;
-}
-
-
-.showcase
-{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-height: 100vh;
-  padding: 40px 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  transition: 0.5s;
-  z-index: 2;
-}
-.showcase.active
-{
-  right: 300px;
 }
 
 
